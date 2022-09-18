@@ -3,6 +3,9 @@
     display: none;
     
     line-height: 30px;}
+    .container{
+        padding-top: 20px;
+    }
     .table{
         max-width: 90%;
         flex-wrap: wrap;
@@ -10,9 +13,16 @@
         line-height: 40px;
         margin: 0 auto;
     }
-    .cabeca{
-        display:flex;
-        flex-direction: column;
+    .header{
         height: 150px;
     }
+    .cabeca{
+        flex-direction: column;
+    }
+   
+    .cabeca li a{
+        color: black;
+        
+    }
+   
 }
