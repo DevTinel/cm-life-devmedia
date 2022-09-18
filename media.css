@@ -1,0 +1,107 @@
+@media (min-width:320px) and (max-width:425px){
+
+    body{
+        box-sizing: border-box;
+        margin :0;
+        padding: 0;
+        font-size: 14px;
+       text-align: center;
+       width: 100vw;
+}
+    .header{ height: 120px;
+        width: 100%;
+       
+
+}
+    .secao2 img{
+        display: none;
+}
+    .bordinha{
+      
+        width: 100%;
+        border-top: 1px solid black;
+    }
+    .menu {
+        
+        padding-top: 10px;
+       
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+       
+        
+    }
+    .cabeca{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    .cabeca img{
+        margin-top: 50px;
+    }
+    h1{
+        position: absolute;
+        top: 170px;
+        text-align: left;
+        width: 100%;
+        font-size: 20px;
+    }
+    .secao{
+        background-image: url(recepcao.png);
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        background-size: cover;
+    }
+    #sobre p,.secao2 ul,h3{
+        width: 100%;
+        font-size: 15px;
+        margin-left: 5px;
+    }
+    .seclist{
+        width: 100%;
+    }
+}
+@media (min-width:425px) and (max-width:768px){
+    .secao2 img{
+        display: none;
+    }
+    .secao{
+        background-image: url(recepcao.png);
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+        background-size: cover;
+    }
+    h1{
+        font-size: 35px;
+    }
+    .seclist h3 {
+        margin-left: 10px;
+    }
+    .cabeca{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 30px;
+        
+    }   
+    .header{ height: 130px;
+    }
+    .bordinha{
+        
+        width: 100%;
+        border-top: 1px solid black;
+    }
+    .cabeca img{
+        margin-top: 50px;
+    }
+
+    .menu{
+        padding-top: 10px;
+        gap: 60px;
+    }
+}   

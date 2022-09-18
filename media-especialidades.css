@@ -1,0 +1,18 @@
+@media (max-width:768px){
+    .container img{
+    display: none;
+    
+    line-height: 30px;}
+    .table{
+        max-width: 90%;
+        flex-wrap: wrap;
+        width: 100vh;
+        line-height: 40px;
+        margin: 0 auto;
+    }
+    .cabeca{
+        display:flex;
+        flex-direction: column;
+        height: 150px;
+    }
+}

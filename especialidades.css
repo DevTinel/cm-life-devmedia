@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: #9fa1a1;
+    background-color: #fff;
+    font-family: 'Source Sans Pro',sans-serif;
+    
+}
+
+
+.link-topo a{
+    margin: 0 30px;
+    text-decoration: none;
+    color:#fff;
+    font-size: 20px;
+    margin-right: 10px;
+
+    
+    
+}
+
+.secao{
+    background-image: url(recepcao.png);
+    background-size: cover;
+    width: 100%;
+    height: 500px;}
+
+.header{
+   margin: 0 auto;
+   
+    width: 100%;
+    background-color: #00cad1;
+    display: flex;
+    flex-direction: column;
+}
+.cabeca{
+    height: 60px;
+    padding: 10px 200px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    
+.menu{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.rodape{
+    
+    text-align: center;
+    margin: 0  auto;
+    width: 100%;
+    background-color: #0c6e71;
+    color: #fff;
+    padding-bottom: 30px;
+    margin-top: 50px;
+}
+.rodape p{
+    
+    padding-bottom: 30px;
+}
+.rodape img{
+    width: 150px;
+}
+.container{
+    width: 1024px;
+    margin: 0 auto;
+    max-width: 80%;
+}
+.servicos{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.servicos a{
+    color: black;
+    margin-right:  10px;
+    text-decoration: none;
+    font-size: 18px;
+    border-bottom: 3px solid #00cad1;
+}
+h1{
+    margin-bottom: 20px;
+    text-align: center;
+    color: #868686;
+}
+h2{ margin-top: 30px;
+    text-align: center;
+    color: #868686;
+    font-size: 18px;
+}
+.container p {
+    margin: 20px auto;
+    width: 50%;
+    text-align: center;
+}   
+.container img{
+    object-fit: cover;
+    width: 300px;
+    height: 100%;
+}
+.table{
+    color: #9fa1a1;
+    display: flex;
+    
+}
+.filho{
+    color: #fff;
+    background-color:darkgrey;
+    width:100%;
+    display: grid;
+}
+.filho tr td{
+    padding-left: 10px;
+}
+.head{
+    height: 40px;
+    padding-top: 20px;
+    text-align: left;
+}
+.head tr th{
+    background-color: #00cad1;
+    padding-left: 10px;   
+}
+.cinza{
+    background-color: #cecaca;
+    color: #6d6b6b;
+}
+.cinza-claro{
+    color: #6d6b6b;
+    background-color: #e7e2e2;
+}
+
+
+
+
+
